@@ -9,7 +9,6 @@ a:hover {
     text-decoration: none;
 }
 
-
 .card {
     border-radius: 0;
     padding: 0;
@@ -24,6 +23,7 @@ div {
 }
 
 /* "form", yoksa navbarın butonu bozuluyor*/
+
 form button {
     border: none;
     border-radius: 0;
@@ -46,16 +46,12 @@ form button:hover {
     cursor: pointer;
 }
 
-h1,
-h2 {
+h1, h2 {
     font-weight: 300;
     text-align: center;
 }
 
-h3,
-h4,
-h5,
-h6 {
+h3, h4, h5, h6 {
     font-weight: 200;
     text-align: center;
 }
@@ -72,7 +68,7 @@ h6 {
     border: none;
 }
 
-#navbar, #navbarlinks{
+#navbar, #navbarlinks {
     padding: 0;
     text-align: right;
 }
@@ -115,14 +111,12 @@ h6 {
     color: lightgreen;
 }
 
-
 #intro .col-md {
     margin-top: auto;
     margin-bottom: auto;
 }
 
-#intro h2,
-#intro h4 {
+#intro h2, #intro h4 {
     padding-bottom: 20px;
 }
 
@@ -131,7 +125,6 @@ h6 {
     max-height: 300px;
 }
 
-
 /*Trailer*/
 
 #trailer p {
@@ -139,7 +132,6 @@ h6 {
 }
 
 /*Features*/
-
 
 #features .card {
     border: none;
@@ -241,16 +233,18 @@ h6 {
 }
 
 /*Partners*/
+
 #partners {
     background-color: #dadada;
 }
+
 #partners img {
     display: block;
     margin: 0 auto;
     padding: 0;
     width: 100px;
-    
 }
+
 /*Contact*/
 
 #contact {
@@ -281,6 +275,7 @@ h6 {
 #contact .subbutton {
     margin: 10px 0;
 }
+
 #contact ul {
     font-size: 14px;
     list-style: none;
